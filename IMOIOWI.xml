@@ -1,34 +1,28 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>IMOIOWI</Name>
-  <Repository>imoiowi/imoiowi:latest</Repository>
-  <Registry>https://imoiowi.io/site-notice/</Registry>
+  <Repository>imoiowi/imoiowi</Repository>
+  <Registry>https://hub.docker.com/r/imoiowi/imoiowi</Registry>
   <Network>bridge</Network>
-  <MyIP/>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
-  <Support>https://forums.unraid.net/topic/163160-introducing-imoiowi-the-system-backup-system/</Support>
+  <Support>https://forums.unraid.net/topic/163160-introducing-imoiowi-vm-backup-system</Support>
   <Project>https://imoiowi.io/</Project>
-  <Overview>The "System Backup System" for UNRAID, Virtual Machines, Beginners and Experts.&#xD;
-&#xD;
-- Backup -&#xD;
-Create backups of your virtual machines automatically. When you want, where you want it, as often as you want.&#xD;
-&#xD;
-- Restore -&#xD;
-Rollback your systems easily and error free. Without specialized knowledge, simply at the touch of button.&#xD;
-&#xD;
-- Choose -&#xD;
-IMOIOWI has been optimized for mobiles. But it works just as well for tablets and desktops.</Overview>
-  <Category>Backup:</Category>
-  <WebUI/>
-  <TemplateURL/>
-  <Icon/>
-  <ExtraParams/>
-  <PostArgs/>
-  <CPUset>1,2</CPUset>
-  <DateInstalled>1714034868</DateInstalled>
-  <DonateText/>
-  <DonateLink/>
-  <Requires>- SSH enabled in unRaid</Requires>
+  <Overview>&amp;lt;b&amp;gt;IMOIOWI&amp;lt;/b&amp;gt; - VM Backup system&amp;lt;br/&amp;gt;&#xD;
+Welcome to simple and efficient continuous (daily, weekly, monthly) and manually triggered backups for virtual machines as well as specific restore on demand.</Overview>
+  <Category>Backup: Status:Beta</Category>
+  <WebUI>http://[IP]:[PORT:8081]</WebUI>
+  <Icon>https://imoiowi.io/wp-content/uploads/2023/09/imoiowi-gruen-2.gif</Icon>
+  <DateInstalled>1714979808</DateInstalled>
+  <Requires> &amp;lt;ul&amp;gt;&#xD;
+  &amp;lt;li&amp;gt;SSH access has to be enabled&amp;lt;/li&amp;gt;&#xD;
+  &amp;lt;li&amp;gt;Ports: 8080, 8081&amp;lt;/li&amp;gt;&#xD;
+&amp;lt;/ul&amp;gt; </Requires>
   <Config Name="Management" Target="8081" Default="" Mode="tcp" Description="IMOIOWI Web Interface" Type="Port" Display="always" Required="false" Mask="false">8081</Config>
+  <Beta>true</Beta>
+  <Changes>
+    ### 0.5.0 - 2024/04/09
+    
+    - Inital alpha release
+  </Changes>
 </Container>
