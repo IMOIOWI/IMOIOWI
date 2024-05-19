@@ -21,6 +21,11 @@ Welcome to simple and efficient continuous (daily, weekly, monthly) and manually
   <Config Name="Management" Target="8081" Default="" Mode="tcp" Description="IMOIOWI Web Interface" Type="Port" Display="always" Required="false" Mask="false">8081</Config>
   <Beta>true</Beta>
   <Changes>
+    ### 0.6.0 - 2024/05/19
+
+    - Retention policy added
+    - Port may be changed
+    
     ### 0.5.0 - 2024/04/09
     
     - Inital alpha release
