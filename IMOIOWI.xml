@@ -14,10 +14,7 @@ Welcome to simple and efficient continuous (daily, weekly, monthly) and manually
   <WebUI>http://[IP]:[PORT:8081]</WebUI>
   <Icon>https://imoiowi.io/wp-content/uploads/2023/09/imoiowi-gruen-2.gif</Icon>
   <DateInstalled>1714979808</DateInstalled>
-  <Requires> &amp;lt;ul&amp;gt;&#xD;
-  &amp;lt;li&amp;gt;SSH access has to be enabled&amp;lt;/li&amp;gt;&#xD;
-  &amp;lt;li&amp;gt;Ports: 8080, 8081&amp;lt;/li&amp;gt;&#xD;
-&amp;lt;/ul&amp;gt; </Requires>
+  <Requires>SSH access has to be enabled</Requires>
   <Config Name="Management" Target="8081" Default="" Mode="tcp" Description="IMOIOWI Web Interface" Type="Port" Display="always" Required="false" Mask="false">8081</Config>
   <Beta>true</Beta>
   <Changes>
